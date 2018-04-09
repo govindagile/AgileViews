@@ -1,0 +1,16 @@
+PODS:
+  - AgileViews (0.1.0)
+
+DEPENDENCIES:
+  - AgileViews (from `../`)
+
+EXTERNAL SOURCES:
+  AgileViews:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AgileViews: 6b13e8934fe64b94489c5e07b5a87b21d8a77656
+
+PODFILE CHECKSUM: b8f6d867569046b5c813b12887d8e0d8a3499b87
+
+COCOAPODS: 1.3.1

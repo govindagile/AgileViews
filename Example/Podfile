@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AgileViews_Example' do
+  pod 'AgileViews', :path => '../'
+
+  target 'AgileViews_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

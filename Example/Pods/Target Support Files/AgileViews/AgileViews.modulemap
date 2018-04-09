@@ -1,0 +1,6 @@
+framework module AgileViews {
+  umbrella header "AgileViews-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "AgileViews",
+  "version": "0.1.0",
+  "summary": "A short description of AgileViews.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/govind.ravaliya@agileinfoways.com/AgileViews",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "govind.ravaliya@agileinfoways.com": "govind.ravaliya@agileinfoways.com"
+  },
+  "source": {
+    "git": "https://github.com/govind.ravaliya@agileinfoways.com/AgileViews.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AgileViews/Classes/**/*"
+}
