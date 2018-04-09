@@ -15,7 +15,6 @@
 		5C78A2823AF1F1E07D0A0F385CF8ED43 /* Pods-AgileViews_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B048C14F595E1DB063A46F35AFC42BAE /* Pods-AgileViews_Example-dummy.m */; };
 		6723F083431384A48A7504955EF44F51 /* Pods-AgileViews_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F0A1C87B116B21C5CE8138B91DEE45 /* Pods-AgileViews_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D9DCCBB5E1A228C492C3A3697AAD7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C05475AD76D1DEF3AE4D421CFB0B4C1A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07717F4949A17BE63EC6AE9C7672FCBE /* ReplaceMe.swift */; };
 		F8CA1891B86AA9741B33DF80EF0772C5 /* Pods-AgileViews_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E11493CC395FAD05B70C3DD41526889 /* Pods-AgileViews_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -31,36 +30,52 @@
 
 /* Begin PBXFileReference section */
 		05AB50914D25272A1FFBFD47E02DCF67 /* AgileViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgileViews-prefix.pch"; sourceTree = "<group>"; };
-		07717F4949A17BE63EC6AE9C7672FCBE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AgileViews/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		120EB8DCB43BB29026163B4E2EEFD273 /* AgileViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgileViews-umbrella.h"; sourceTree = "<group>"; };
-		2342476FEF486D69483AAC6FB818D296 /* Pods-AgileViews_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AgileViews_Example.modulemap"; sourceTree = "<group>"; };
+		2342476FEF486D69483AAC6FB818D296 /* Pods-AgileViews_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AgileViews_Example.modulemap"; sourceTree = "<group>"; };
 		245577B0B9AB158535EE00D439C65411 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30B1AB2B02C696499DE58AAFD969E9BD /* Pods-AgileViews_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileViews_Example-frameworks.sh"; sourceTree = "<group>"; };
 		39777908FA72B6999E75743437FC5C7D /* Pods-AgileViews_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgileViews_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		39B50326A48A1203AD41730CD5635C02 /* AgileViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AgileViews-dummy.m"; sourceTree = "<group>"; };
 		45B3751565D929034D051C62B26141F4 /* Pods-AgileViews_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileViews_Tests-resources.sh"; sourceTree = "<group>"; };
 		58C581309D769E60A64EE99984887562 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D2DB9D343F9E96AE70765A4238F6140 /* Pods_AgileViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AgileViews_Example.framework; path = "Pods-AgileViews_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2DB9D343F9E96AE70765A4238F6140 /* Pods_AgileViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgileViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A24EC7DCE9B1F41D14F84F4757886BD /* Pods_AgileViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AgileViews_Tests.framework; path = "Pods-AgileViews_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A24EC7DCE9B1F41D14F84F4757886BD /* Pods_AgileViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgileViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E11493CC395FAD05B70C3DD41526889 /* Pods-AgileViews_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgileViews_Tests-dummy.m"; sourceTree = "<group>"; };
 		7158D644583A51A46EF3C7ABBE40B113 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		868B93EFFC4C6D280125421D70E9F52D /* Pods-AgileViews_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileViews_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A5FCBEC46F1EC93A9CA8C348F85095C /* Pods-AgileViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8B8A11D52DAE5A748844D55BDA3B0860 /* Pods-AgileViews_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgileViews_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95EDB5485EEB4D262550F733A30F5BCD /* Pods-AgileViews_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgileViews_Example-umbrella.h"; sourceTree = "<group>"; };
-		96723AC5E3642DCCD003C80FA688614C /* AgileViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AgileViews.framework; path = AgileViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96723AC5E3642DCCD003C80FA688614C /* AgileViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AgileViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DF36A8662CCBB8BDC9CF10464CC175 /* Pods-AgileViews_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileViews_Example-resources.sh"; sourceTree = "<group>"; };
 		AED8CB75FA5B7A67A6CB7612579B7899 /* Pods-AgileViews_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgileViews_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B048C14F595E1DB063A46F35AFC42BAE /* Pods-AgileViews_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgileViews_Example-dummy.m"; sourceTree = "<group>"; };
 		C0E42928448D3C76F3179F9A1F567211 /* Pods-AgileViews_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileViews_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C16BA9A189A2CEE4AD5E6D93FD1811C2 /* Pods-AgileViews_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileViews_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C5807ED8207B9D320068B4E8 /* AIButtonDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIButtonDatePicker.swift; sourceTree = "<group>"; };
+		C5807ED9207B9D320068B4E8 /* AIButtonPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIButtonPicker.swift; sourceTree = "<group>"; };
+		C5807EDA207B9D320068B4E8 /* AIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIButton.swift; sourceTree = "<group>"; };
+		C5807EDC207B9D320068B4E8 /* AIPickerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPickerItem.swift; sourceTree = "<group>"; };
+		C5807EDE207B9D320068B4E8 /* AICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICollectionViewCell.swift; sourceTree = "<group>"; };
+		C5807EE0207B9D320068B4E8 /* AITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITextView.swift; sourceTree = "<group>"; };
+		C5807EE2207B9D320068B4E8 /* AICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICollectionView.swift; sourceTree = "<group>"; };
+		C5807EE4207B9D320068B4E8 /* AIViewPlaceHolder.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AIViewPlaceHolder.xib; sourceTree = "<group>"; };
+		C5807EE5207B9D320068B4E8 /* AIViewPlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIViewPlaceHolder.swift; sourceTree = "<group>"; };
+		C5807EE7207B9D320068B4E8 /* AILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AILabel.swift; sourceTree = "<group>"; };
+		C5807EE9207B9D320068B4E8 /* AIImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIImagePickerController.swift; sourceTree = "<group>"; };
+		C5807EEB207B9D320068B4E8 /* AITextPickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITextPickerField.swift; sourceTree = "<group>"; };
+		C5807EEC207B9D320068B4E8 /* AITextDatePickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITextDatePickerField.swift; sourceTree = "<group>"; };
+		C5807EED207B9D320068B4E8 /* AITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITextField.swift; sourceTree = "<group>"; };
+		C5807EEF207B9D320068B4E8 /* AIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIImageView.swift; sourceTree = "<group>"; };
+		C5807EF1207B9D320068B4E8 /* AITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITableViewCell.swift; sourceTree = "<group>"; };
+		C5807EF3207B9D320068B4E8 /* AITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITableView.swift; sourceTree = "<group>"; };
 		D1F0A1C87B116B21C5CE8138B91DEE45 /* Pods-AgileViews_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgileViews_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DF3A23CAA2A5FF563144118F943BEE9A /* AgileViews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgileViews.xcconfig; sourceTree = "<group>"; };
 		DFFF5F1A70D108300DD4F68AEC7F749A /* Pods-AgileViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E50AAEE678D010B66EDD610E06450ABB /* Pods-AgileViews_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AgileViews_Tests.modulemap"; sourceTree = "<group>"; };
-		F4C2373D77C1F85FA94426BEE4DAD8EB /* AgileViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AgileViews.modulemap; sourceTree = "<group>"; };
+		E50AAEE678D010B66EDD610E06450ABB /* Pods-AgileViews_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AgileViews_Tests.modulemap"; sourceTree = "<group>"; };
+		F4C2373D77C1F85FA94426BEE4DAD8EB /* AgileViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AgileViews.modulemap; sourceTree = "<group>"; };
 		FC68F6CDD343C0FAFCC513D6742497F9 /* Pods-AgileViews_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgileViews_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +145,127 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C5807ED6207B9D320068B4E8 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				C5807ED7207B9D320068B4E8 /* AIButton */,
+				C5807EDB207B9D320068B4E8 /* AIPickerItem */,
+				C5807EDD207B9D320068B4E8 /* AICollectionViewCell */,
+				C5807EDF207B9D320068B4E8 /* AITextView */,
+				C5807EE1207B9D320068B4E8 /* AICollectionView */,
+				C5807EE3207B9D320068B4E8 /* AIViewPlaceHolder */,
+				C5807EE6207B9D320068B4E8 /* AILabel */,
+				C5807EE8207B9D320068B4E8 /* AIImagePickerController */,
+				C5807EEA207B9D320068B4E8 /* AITextField */,
+				C5807EEE207B9D320068B4E8 /* AIImageView */,
+				C5807EF0207B9D320068B4E8 /* AITableViewCell */,
+				C5807EF2207B9D320068B4E8 /* AITableView */,
+			);
+			name = Controls;
+			path = AgileViews/Classes/Controls;
+			sourceTree = "<group>";
+		};
+		C5807ED7207B9D320068B4E8 /* AIButton */ = {
+			isa = PBXGroup;
+			children = (
+				C5807ED8207B9D320068B4E8 /* AIButtonDatePicker.swift */,
+				C5807ED9207B9D320068B4E8 /* AIButtonPicker.swift */,
+				C5807EDA207B9D320068B4E8 /* AIButton.swift */,
+			);
+			path = AIButton;
+			sourceTree = "<group>";
+		};
+		C5807EDB207B9D320068B4E8 /* AIPickerItem */ = {
+			isa = PBXGroup;
+			children = (
+				C5807EDC207B9D320068B4E8 /* AIPickerItem.swift */,
+			);
+			path = AIPickerItem;
+			sourceTree = "<group>";
+		};
+		C5807EDD207B9D320068B4E8 /* AICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5807EDE207B9D320068B4E8 /* AICollectionViewCell.swift */,
+			);
+			path = AICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C5807EDF207B9D320068B4E8 /* AITextView */ = {
+			isa = PBXGroup;
+			children = (
+				C5807EE0207B9D320068B4E8 /* AITextView.swift */,
+			);
+			path = AITextView;
+			sourceTree = "<group>";
+		};
+		C5807EE1207B9D320068B4E8 /* AICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C5807EE2207B9D320068B4E8 /* AICollectionView.swift */,
+			);
+			path = AICollectionView;
+			sourceTree = "<group>";
+		};
+		C5807EE3207B9D320068B4E8 /* AIViewPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				C5807EE4207B9D320068B4E8 /* AIViewPlaceHolder.xib */,
+				C5807EE5207B9D320068B4E8 /* AIViewPlaceHolder.swift */,
+			);
+			path = AIViewPlaceHolder;
+			sourceTree = "<group>";
+		};
+		C5807EE6207B9D320068B4E8 /* AILabel */ = {
+			isa = PBXGroup;
+			children = (
+				C5807EE7207B9D320068B4E8 /* AILabel.swift */,
+			);
+			path = AILabel;
+			sourceTree = "<group>";
+		};
+		C5807EE8207B9D320068B4E8 /* AIImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				C5807EE9207B9D320068B4E8 /* AIImagePickerController.swift */,
+			);
+			path = AIImagePickerController;
+			sourceTree = "<group>";
+		};
+		C5807EEA207B9D320068B4E8 /* AITextField */ = {
+			isa = PBXGroup;
+			children = (
+				C5807EEB207B9D320068B4E8 /* AITextPickerField.swift */,
+				C5807EEC207B9D320068B4E8 /* AITextDatePickerField.swift */,
+				C5807EED207B9D320068B4E8 /* AITextField.swift */,
+			);
+			path = AITextField;
+			sourceTree = "<group>";
+		};
+		C5807EEE207B9D320068B4E8 /* AIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C5807EEF207B9D320068B4E8 /* AIImageView.swift */,
+			);
+			path = AIImageView;
+			sourceTree = "<group>";
+		};
+		C5807EF0207B9D320068B4E8 /* AITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5807EF1207B9D320068B4E8 /* AITableViewCell.swift */,
+			);
+			path = AITableViewCell;
+			sourceTree = "<group>";
+		};
+		C5807EF2207B9D320068B4E8 /* AITableView */ = {
+			isa = PBXGroup;
+			children = (
+				C5807EF3207B9D320068B4E8 /* AITableView.swift */,
+			);
+			path = AITableView;
+			sourceTree = "<group>";
+		};
 		CB6207445072D1A48478D1A5E1CF448B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,7 +321,7 @@
 		F3A625074C8DD760CB534933CE5454DC /* AgileViews */ = {
 			isa = PBXGroup;
 			children = (
-				07717F4949A17BE63EC6AE9C7672FCBE /* ReplaceMe.swift */,
+				C5807ED6207B9D320068B4E8 /* Controls */,
 				F42D984A1810964A9AAD8BEC93A3174F /* Support Files */,
 			);
 			name = AgileViews;
@@ -338,7 +474,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E3B837CA0BDAFF04A0450A01019198E /* AgileViews-dummy.m in Sources */,
-				C05475AD76D1DEF3AE4D421CFB0B4C1A /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
