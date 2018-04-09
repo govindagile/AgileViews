@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01F4E6C95C519A13889D26ED7400DE70 /* AITextDatePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4E7188FFF7BD8EBD757CA9BAC4767 /* AITextDatePickerField.swift */; };
 		0454A64D09A3189717EF716E8253A323 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2E3B837CA0BDAFF04A0450A01019198E /* AgileViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B50326A48A1203AD41730CD5635C02 /* AgileViews-dummy.m */; };
-		352D3FD6BB6E516B3F81923DD0177D4D /* AgileViews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 120EB8DCB43BB29026163B4E2EEFD273 /* AgileViews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1597A06C8F7CDEE483D4F1D3E6864B1B /* AITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073D523F2057615F7FADEDF546C50C1 /* AITextField.swift */; };
+		16AFE1CA62249387297A34E8F15190DA /* AIButtonPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CA287AD005E0FC19C53E09833EB35A /* AIButtonPicker.swift */; };
+		2B5D70F936826167447E06722A922EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3A307302BAB07D7CE3FC771409FD4D46 /* AIViewPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A5FC0F488C6CCAEF97DAD16B44F423 /* AIViewPlaceHolder.swift */; };
 		3B3F2BFAED8B70DA84874656140F6C29 /* Pods-AgileViews_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EDB5485EEB4D262550F733A30F5BCD /* Pods-AgileViews_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FED6B4694710E0C07D05BF8C5C102BD /* AIButtonDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C444CD2A13CC7E5699DB47B2A652F5 /* AIButtonDatePicker.swift */; };
+		41472C9AD98824FC9D0C3E65A2FF387A /* AIViewPlaceHolder.xib in Sources */ = {isa = PBXBuildFile; fileRef = 00CCB280C4F0A2E676DC94323B0C7315 /* AIViewPlaceHolder.xib */; };
 		4B61AFFB8E64267692B0E8C4B73C050E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5C78A2823AF1F1E07D0A0F385CF8ED43 /* Pods-AgileViews_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B048C14F595E1DB063A46F35AFC42BAE /* Pods-AgileViews_Example-dummy.m */; };
+		5E7A77CFF2F190E84C87EAFC8F0749CF /* AIImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF741E2B302095E7586DDC267298387 /* AIImagePickerController.swift */; };
+		613FC1742282875EEBB5689F51FDB8A4 /* AgileViews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E635247A2E0C306822194AC34F8A2D4 /* AgileViews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6723F083431384A48A7504955EF44F51 /* Pods-AgileViews_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F0A1C87B116B21C5CE8138B91DEE45 /* Pods-AgileViews_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79D9DCCBB5E1A228C492C3A3697AAD7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		75238C6CF934AF7AB765142FF17DD651 /* AITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DCF08A14F887D2375DAFD1036E967C /* AITextView.swift */; };
+		793C58369825C0539B0F6DFE7DB3FBC9 /* AICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3EB2ABE45C6AAD815785032AE4B60 /* AICollectionView.swift */; };
+		8DB4EE0865AD077D2F82F2CA4F7247C1 /* AgileViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB65B383E2884B6FF0580E930455118 /* AgileViews-dummy.m */; };
+		8E6468D0A0E99BA57EB98F781D4166A3 /* AICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8526D99E3BF0989AB88C7F90952FAA /* AICollectionViewCell.swift */; };
+		BB09670189AA3362A1F9B4D0B3629F17 /* AIPickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAB9B4E29A393D4DF39597F0722E35 /* AIPickerItem.swift */; };
+		BEC160C50F3508242631713BA1EC6745 /* AILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE59E45F2FB32027FC184B00624F657 /* AILabel.swift */; };
+		CD56DAFCF9AB08121E5582629252AE2D /* AITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE8A258FAE4F879A632F8E254CD498 /* AITableView.swift */; };
+		D2694848157BD2AE3585D4601D36EB9D /* AITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3592235EE804350B45B1CF8DE6593B /* AITableViewCell.swift */; };
+		EA717C6482B5870ECAC215B7724AAE8A /* AIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7313F5E4A642CB805DBB6145C9F87C /* AIImageView.swift */; };
+		F75C6921A2A9A60BC1F12AD39E0DA2A6 /* AIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33024212161ED75058F1EFCE93A1997C /* AIButton.swift */; };
 		F8CA1891B86AA9741B33DF80EF0772C5 /* Pods-AgileViews_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E11493CC395FAD05B70C3DD41526889 /* Pods-AgileViews_Tests-dummy.m */; };
+		FF3436D3D1E3228C420F06D5B0D35ED3 /* AITextPickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF1739EADF8A94764B453A8BA2FAC8E /* AITextPickerField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,71 +40,63 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0E8AEA16329E6F9583B89B08BFAFB8D9;
+			remoteGlobalIDString = 1AD4FBFFF1B3D1A3970FE57453D7EA7E;
 			remoteInfo = AgileViews;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05AB50914D25272A1FFBFD47E02DCF67 /* AgileViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgileViews-prefix.pch"; sourceTree = "<group>"; };
-		120EB8DCB43BB29026163B4E2EEFD273 /* AgileViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgileViews-umbrella.h"; sourceTree = "<group>"; };
-		2342476FEF486D69483AAC6FB818D296 /* Pods-AgileViews_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AgileViews_Example.modulemap"; sourceTree = "<group>"; };
+		00CCB280C4F0A2E676DC94323B0C7315 /* AIViewPlaceHolder.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = AIViewPlaceHolder.xib; sourceTree = "<group>"; };
+		0EE59E45F2FB32027FC184B00624F657 /* AILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AILabel.swift; sourceTree = "<group>"; };
+		0F8526D99E3BF0989AB88C7F90952FAA /* AICollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AICollectionViewCell.swift; sourceTree = "<group>"; };
+		18AAB9B4E29A393D4DF39597F0722E35 /* AIPickerItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AIPickerItem.swift; sourceTree = "<group>"; };
+		1E635247A2E0C306822194AC34F8A2D4 /* AgileViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgileViews-umbrella.h"; sourceTree = "<group>"; };
+		2342476FEF486D69483AAC6FB818D296 /* Pods-AgileViews_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AgileViews_Example.modulemap"; sourceTree = "<group>"; };
 		245577B0B9AB158535EE00D439C65411 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30B1AB2B02C696499DE58AAFD969E9BD /* Pods-AgileViews_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileViews_Example-frameworks.sh"; sourceTree = "<group>"; };
+		33024212161ED75058F1EFCE93A1997C /* AIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AIButton.swift; sourceTree = "<group>"; };
 		39777908FA72B6999E75743437FC5C7D /* Pods-AgileViews_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgileViews_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		39B50326A48A1203AD41730CD5635C02 /* AgileViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AgileViews-dummy.m"; sourceTree = "<group>"; };
+		3E3592235EE804350B45B1CF8DE6593B /* AITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AITableViewCell.swift; sourceTree = "<group>"; };
+		3E8373939BD7CCA0F2CAB492E7E22CF5 /* AgileViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgileViews-prefix.pch"; sourceTree = "<group>"; };
 		45B3751565D929034D051C62B26141F4 /* Pods-AgileViews_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileViews_Tests-resources.sh"; sourceTree = "<group>"; };
+		45DCF08A14F887D2375DAFD1036E967C /* AITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AITextView.swift; sourceTree = "<group>"; };
+		4C7313F5E4A642CB805DBB6145C9F87C /* AIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AIImageView.swift; sourceTree = "<group>"; };
+		51D0548FA0D11A26F26640225D776935 /* AgileViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AgileViews.modulemap; sourceTree = "<group>"; };
 		58C581309D769E60A64EE99984887562 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D2DB9D343F9E96AE70765A4238F6140 /* Pods_AgileViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgileViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2DB9D343F9E96AE70765A4238F6140 /* Pods_AgileViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AgileViews_Example.framework; path = "Pods-AgileViews_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A24EC7DCE9B1F41D14F84F4757886BD /* Pods_AgileViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgileViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A24EC7DCE9B1F41D14F84F4757886BD /* Pods_AgileViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AgileViews_Tests.framework; path = "Pods-AgileViews_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E11493CC395FAD05B70C3DD41526889 /* Pods-AgileViews_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgileViews_Tests-dummy.m"; sourceTree = "<group>"; };
-		7158D644583A51A46EF3C7ABBE40B113 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBE8A258FAE4F879A632F8E254CD498 /* AITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AITableView.swift; sourceTree = "<group>"; };
+		6FB65B383E2884B6FF0580E930455118 /* AgileViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AgileViews-dummy.m"; sourceTree = "<group>"; };
+		7CF741E2B302095E7586DDC267298387 /* AIImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AIImagePickerController.swift; sourceTree = "<group>"; };
 		868B93EFFC4C6D280125421D70E9F52D /* Pods-AgileViews_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileViews_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A5FCBEC46F1EC93A9CA8C348F85095C /* Pods-AgileViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8B8A11D52DAE5A748844D55BDA3B0860 /* Pods-AgileViews_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgileViews_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95EDB5485EEB4D262550F733A30F5BCD /* Pods-AgileViews_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgileViews_Example-umbrella.h"; sourceTree = "<group>"; };
-		96723AC5E3642DCCD003C80FA688614C /* AgileViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AgileViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96723AC5E3642DCCD003C80FA688614C /* AgileViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AgileViews.framework; path = AgileViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DF36A8662CCBB8BDC9CF10464CC175 /* Pods-AgileViews_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileViews_Example-resources.sh"; sourceTree = "<group>"; };
 		AED8CB75FA5B7A67A6CB7612579B7899 /* Pods-AgileViews_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgileViews_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B048C14F595E1DB063A46F35AFC42BAE /* Pods-AgileViews_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgileViews_Example-dummy.m"; sourceTree = "<group>"; };
+		B8A5FC0F488C6CCAEF97DAD16B44F423 /* AIViewPlaceHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AIViewPlaceHolder.swift; sourceTree = "<group>"; };
+		BBA4E7188FFF7BD8EBD757CA9BAC4767 /* AITextDatePickerField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AITextDatePickerField.swift; sourceTree = "<group>"; };
 		C0E42928448D3C76F3179F9A1F567211 /* Pods-AgileViews_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileViews_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C16BA9A189A2CEE4AD5E6D93FD1811C2 /* Pods-AgileViews_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileViews_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C5807ED8207B9D320068B4E8 /* AIButtonDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIButtonDatePicker.swift; sourceTree = "<group>"; };
-		C5807ED9207B9D320068B4E8 /* AIButtonPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIButtonPicker.swift; sourceTree = "<group>"; };
-		C5807EDA207B9D320068B4E8 /* AIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIButton.swift; sourceTree = "<group>"; };
-		C5807EDC207B9D320068B4E8 /* AIPickerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPickerItem.swift; sourceTree = "<group>"; };
-		C5807EDE207B9D320068B4E8 /* AICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICollectionViewCell.swift; sourceTree = "<group>"; };
-		C5807EE0207B9D320068B4E8 /* AITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITextView.swift; sourceTree = "<group>"; };
-		C5807EE2207B9D320068B4E8 /* AICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICollectionView.swift; sourceTree = "<group>"; };
-		C5807EE4207B9D320068B4E8 /* AIViewPlaceHolder.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AIViewPlaceHolder.xib; sourceTree = "<group>"; };
-		C5807EE5207B9D320068B4E8 /* AIViewPlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIViewPlaceHolder.swift; sourceTree = "<group>"; };
-		C5807EE7207B9D320068B4E8 /* AILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AILabel.swift; sourceTree = "<group>"; };
-		C5807EE9207B9D320068B4E8 /* AIImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIImagePickerController.swift; sourceTree = "<group>"; };
-		C5807EEB207B9D320068B4E8 /* AITextPickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITextPickerField.swift; sourceTree = "<group>"; };
-		C5807EEC207B9D320068B4E8 /* AITextDatePickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITextDatePickerField.swift; sourceTree = "<group>"; };
-		C5807EED207B9D320068B4E8 /* AITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITextField.swift; sourceTree = "<group>"; };
-		C5807EEF207B9D320068B4E8 /* AIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIImageView.swift; sourceTree = "<group>"; };
-		C5807EF1207B9D320068B4E8 /* AITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITableViewCell.swift; sourceTree = "<group>"; };
-		C5807EF3207B9D320068B4E8 /* AITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITableView.swift; sourceTree = "<group>"; };
+		C2CA287AD005E0FC19C53E09833EB35A /* AIButtonPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AIButtonPicker.swift; sourceTree = "<group>"; };
+		C990CB014FDB67CE68A69252B6B225FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F0A1C87B116B21C5CE8138B91DEE45 /* Pods-AgileViews_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgileViews_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DF3A23CAA2A5FF563144118F943BEE9A /* AgileViews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgileViews.xcconfig; sourceTree = "<group>"; };
+		D3D3EB2ABE45C6AAD815785032AE4B60 /* AICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AICollectionView.swift; sourceTree = "<group>"; };
+		DB2ECDC47898A44DFDA0404BC0FA506F /* AgileViews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgileViews.xcconfig; sourceTree = "<group>"; };
+		DBF1739EADF8A94764B453A8BA2FAC8E /* AITextPickerField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AITextPickerField.swift; sourceTree = "<group>"; };
 		DFFF5F1A70D108300DD4F68AEC7F749A /* Pods-AgileViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E50AAEE678D010B66EDD610E06450ABB /* Pods-AgileViews_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AgileViews_Tests.modulemap"; sourceTree = "<group>"; };
-		F4C2373D77C1F85FA94426BEE4DAD8EB /* AgileViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AgileViews.modulemap; sourceTree = "<group>"; };
+		E50AAEE678D010B66EDD610E06450ABB /* Pods-AgileViews_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AgileViews_Tests.modulemap"; sourceTree = "<group>"; };
+		F073D523F2057615F7FADEDF546C50C1 /* AITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AITextField.swift; sourceTree = "<group>"; };
+		F5C444CD2A13CC7E5699DB47B2A652F5 /* AIButtonDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AIButtonDatePicker.swift; sourceTree = "<group>"; };
 		FC68F6CDD343C0FAFCC513D6742497F9 /* Pods-AgileViews_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgileViews_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A87F71A43401C5737FA20864EA0EB83 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79D9DCCBB5E1A228C492C3A3697AAD7A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47612A9AD836AA7B6127E47729383E81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,9 +113,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4A4BAAD675A431C6353F076248D42C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5D70F936826167447E06722A922EA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BB37A0C16B05C6597A8B2406D3F06BE /* AIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				4C7313F5E4A642CB805DBB6145C9F87C /* AIImageView.swift */,
+			);
+			name = AIImageView;
+			path = AIImageView;
+			sourceTree = "<group>";
+		};
+		1A79791D7F0BFF33C1F13152058F5E26 /* AITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E3592235EE804350B45B1CF8DE6593B /* AITableViewCell.swift */,
+			);
+			name = AITableViewCell;
+			path = AITableViewCell;
+			sourceTree = "<group>";
+		};
+		1CFA1EBC125FC75459CAC69D920EF418 /* AITextField */ = {
+			isa = PBXGroup;
+			children = (
+				BBA4E7188FFF7BD8EBD757CA9BAC4767 /* AITextDatePickerField.swift */,
+				F073D523F2057615F7FADEDF546C50C1 /* AITextField.swift */,
+				DBF1739EADF8A94764B453A8BA2FAC8E /* AITextPickerField.swift */,
+			);
+			name = AITextField;
+			path = AITextField;
+			sourceTree = "<group>";
+		};
 		2B12BDF8C6CE83166F2FA2F9B9C5E009 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +163,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		47C308F9DD78F6F5CBDE5F386348F473 /* AgileViews */ = {
+			isa = PBXGroup;
+			children = (
+				E844C4FBF3742966DBEA907804B5682D /* .. */,
+				A44C0EB84DB838FDEDD96066CCBE743F /* Support Files */,
+			);
+			name = AgileViews;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4AE086E8FE7907B5146C393E7C55A1D5 /* AILabel */ = {
+			isa = PBXGroup;
+			children = (
+				0EE59E45F2FB32027FC184B00624F657 /* AILabel.swift */,
+			);
+			name = AILabel;
+			path = AILabel;
+			sourceTree = "<group>";
+		};
+		4C13811F9319F878808F06FB23941623 /* AICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D3D3EB2ABE45C6AAD815785032AE4B60 /* AICollectionView.swift */,
+			);
+			name = AICollectionView;
+			path = AICollectionView;
+			sourceTree = "<group>";
+		};
 		4CABEB999B7BFD7B19D621B66D98BED3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +198,15 @@
 				EB346F101E94B5AE0DFB3589C7E4393D /* Pods-AgileViews_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A3134AE15A542B8FCA6F2269056E790 /* AIImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				7CF741E2B302095E7586DDC267298387 /* AIImagePickerController.swift */,
+			);
+			name = AIImagePickerController;
+			path = AIImagePickerController;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -137,6 +220,47 @@
 			);
 			sourceTree = "<group>";
 		};
+		8850A08496A6A1D016A5959F5EC5180A /* AIPickerItem */ = {
+			isa = PBXGroup;
+			children = (
+				18AAB9B4E29A393D4DF39597F0722E35 /* AIPickerItem.swift */,
+			);
+			name = AIPickerItem;
+			path = AIPickerItem;
+			sourceTree = "<group>";
+		};
+		93345F907BA3762CC7807EE7A731605F /* AICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0F8526D99E3BF0989AB88C7F90952FAA /* AICollectionViewCell.swift */,
+			);
+			name = AICollectionViewCell;
+			path = AICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A44C0EB84DB838FDEDD96066CCBE743F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51D0548FA0D11A26F26640225D776935 /* AgileViews.modulemap */,
+				DB2ECDC47898A44DFDA0404BC0FA506F /* AgileViews.xcconfig */,
+				6FB65B383E2884B6FF0580E930455118 /* AgileViews-dummy.m */,
+				3E8373939BD7CCA0F2CAB492E7E22CF5 /* AgileViews-prefix.pch */,
+				1E635247A2E0C306822194AC34F8A2D4 /* AgileViews-umbrella.h */,
+				C990CB014FDB67CE68A69252B6B225FE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AgileViews";
+			sourceTree = "<group>";
+		};
+		BB9F54ACCD13CE77BEF6FF24383F80CC /* AITableView */ = {
+			isa = PBXGroup;
+			children = (
+				6EBE8A258FAE4F879A632F8E254CD498 /* AITableView.swift */,
+			);
+			name = AITableView;
+			path = AITableView;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,131 +269,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C5807ED6207B9D320068B4E8 /* Controls */ = {
+		CA14860B6B7F20C03C897678C7A8926D /* AITextView */ = {
 			isa = PBXGroup;
 			children = (
-				C5807ED7207B9D320068B4E8 /* AIButton */,
-				C5807EDB207B9D320068B4E8 /* AIPickerItem */,
-				C5807EDD207B9D320068B4E8 /* AICollectionViewCell */,
-				C5807EDF207B9D320068B4E8 /* AITextView */,
-				C5807EE1207B9D320068B4E8 /* AICollectionView */,
-				C5807EE3207B9D320068B4E8 /* AIViewPlaceHolder */,
-				C5807EE6207B9D320068B4E8 /* AILabel */,
-				C5807EE8207B9D320068B4E8 /* AIImagePickerController */,
-				C5807EEA207B9D320068B4E8 /* AITextField */,
-				C5807EEE207B9D320068B4E8 /* AIImageView */,
-				C5807EF0207B9D320068B4E8 /* AITableViewCell */,
-				C5807EF2207B9D320068B4E8 /* AITableView */,
+				45DCF08A14F887D2375DAFD1036E967C /* AITextView.swift */,
 			);
-			name = Controls;
-			path = AgileViews/Classes/Controls;
-			sourceTree = "<group>";
-		};
-		C5807ED7207B9D320068B4E8 /* AIButton */ = {
-			isa = PBXGroup;
-			children = (
-				C5807ED8207B9D320068B4E8 /* AIButtonDatePicker.swift */,
-				C5807ED9207B9D320068B4E8 /* AIButtonPicker.swift */,
-				C5807EDA207B9D320068B4E8 /* AIButton.swift */,
-			);
-			path = AIButton;
-			sourceTree = "<group>";
-		};
-		C5807EDB207B9D320068B4E8 /* AIPickerItem */ = {
-			isa = PBXGroup;
-			children = (
-				C5807EDC207B9D320068B4E8 /* AIPickerItem.swift */,
-			);
-			path = AIPickerItem;
-			sourceTree = "<group>";
-		};
-		C5807EDD207B9D320068B4E8 /* AICollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				C5807EDE207B9D320068B4E8 /* AICollectionViewCell.swift */,
-			);
-			path = AICollectionViewCell;
-			sourceTree = "<group>";
-		};
-		C5807EDF207B9D320068B4E8 /* AITextView */ = {
-			isa = PBXGroup;
-			children = (
-				C5807EE0207B9D320068B4E8 /* AITextView.swift */,
-			);
+			name = AITextView;
 			path = AITextView;
-			sourceTree = "<group>";
-		};
-		C5807EE1207B9D320068B4E8 /* AICollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				C5807EE2207B9D320068B4E8 /* AICollectionView.swift */,
-			);
-			path = AICollectionView;
-			sourceTree = "<group>";
-		};
-		C5807EE3207B9D320068B4E8 /* AIViewPlaceHolder */ = {
-			isa = PBXGroup;
-			children = (
-				C5807EE4207B9D320068B4E8 /* AIViewPlaceHolder.xib */,
-				C5807EE5207B9D320068B4E8 /* AIViewPlaceHolder.swift */,
-			);
-			path = AIViewPlaceHolder;
-			sourceTree = "<group>";
-		};
-		C5807EE6207B9D320068B4E8 /* AILabel */ = {
-			isa = PBXGroup;
-			children = (
-				C5807EE7207B9D320068B4E8 /* AILabel.swift */,
-			);
-			path = AILabel;
-			sourceTree = "<group>";
-		};
-		C5807EE8207B9D320068B4E8 /* AIImagePickerController */ = {
-			isa = PBXGroup;
-			children = (
-				C5807EE9207B9D320068B4E8 /* AIImagePickerController.swift */,
-			);
-			path = AIImagePickerController;
-			sourceTree = "<group>";
-		};
-		C5807EEA207B9D320068B4E8 /* AITextField */ = {
-			isa = PBXGroup;
-			children = (
-				C5807EEB207B9D320068B4E8 /* AITextPickerField.swift */,
-				C5807EEC207B9D320068B4E8 /* AITextDatePickerField.swift */,
-				C5807EED207B9D320068B4E8 /* AITextField.swift */,
-			);
-			path = AITextField;
-			sourceTree = "<group>";
-		};
-		C5807EEE207B9D320068B4E8 /* AIImageView */ = {
-			isa = PBXGroup;
-			children = (
-				C5807EEF207B9D320068B4E8 /* AIImageView.swift */,
-			);
-			path = AIImageView;
-			sourceTree = "<group>";
-		};
-		C5807EF0207B9D320068B4E8 /* AITableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				C5807EF1207B9D320068B4E8 /* AITableViewCell.swift */,
-			);
-			path = AITableViewCell;
-			sourceTree = "<group>";
-		};
-		C5807EF2207B9D320068B4E8 /* AITableView */ = {
-			isa = PBXGroup;
-			children = (
-				C5807EF3207B9D320068B4E8 /* AITableView.swift */,
-			);
-			path = AITableView;
 			sourceTree = "<group>";
 		};
 		CB6207445072D1A48478D1A5E1CF448B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F3A625074C8DD760CB534933CE5454DC /* AgileViews */,
+				47C308F9DD78F6F5CBDE5F386348F473 /* AgileViews */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -300,6 +312,47 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E1B0B66EF24802EACE49880E54392B40 /* AIViewPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				B8A5FC0F488C6CCAEF97DAD16B44F423 /* AIViewPlaceHolder.swift */,
+				00CCB280C4F0A2E676DC94323B0C7315 /* AIViewPlaceHolder.xib */,
+			);
+			name = AIViewPlaceHolder;
+			path = AIViewPlaceHolder;
+			sourceTree = "<group>";
+		};
+		E79573C1D162DEFA05EE7820CA90BED5 /* AIButton */ = {
+			isa = PBXGroup;
+			children = (
+				33024212161ED75058F1EFCE93A1997C /* AIButton.swift */,
+				F5C444CD2A13CC7E5699DB47B2A652F5 /* AIButtonDatePicker.swift */,
+				C2CA287AD005E0FC19C53E09833EB35A /* AIButtonPicker.swift */,
+			);
+			name = AIButton;
+			path = AIButton;
+			sourceTree = "<group>";
+		};
+		E844C4FBF3742966DBEA907804B5682D /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				E79573C1D162DEFA05EE7820CA90BED5 /* AIButton */,
+				4C13811F9319F878808F06FB23941623 /* AICollectionView */,
+				93345F907BA3762CC7807EE7A731605F /* AICollectionViewCell */,
+				7A3134AE15A542B8FCA6F2269056E790 /* AIImagePickerController */,
+				0BB37A0C16B05C6597A8B2406D3F06BE /* AIImageView */,
+				4AE086E8FE7907B5146C393E7C55A1D5 /* AILabel */,
+				8850A08496A6A1D016A5959F5EC5180A /* AIPickerItem */,
+				BB9F54ACCD13CE77BEF6FF24383F80CC /* AITableView */,
+				1A79791D7F0BFF33C1F13152058F5E26 /* AITableViewCell */,
+				1CFA1EBC125FC75459CAC69D920EF418 /* AITextField */,
+				CA14860B6B7F20C03C897678C7A8926D /* AITextView */,
+				E1B0B66EF24802EACE49880E54392B40 /* AIViewPlaceHolder */,
+			);
+			name = ..;
+			path = AgileViews/Classes/Controls;
+			sourceTree = "<group>";
+		};
 		EB346F101E94B5AE0DFB3589C7E4393D /* Pods-AgileViews_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,30 +371,6 @@
 			path = "Target Support Files/Pods-AgileViews_Tests";
 			sourceTree = "<group>";
 		};
-		F3A625074C8DD760CB534933CE5454DC /* AgileViews */ = {
-			isa = PBXGroup;
-			children = (
-				C5807ED6207B9D320068B4E8 /* Controls */,
-				F42D984A1810964A9AAD8BEC93A3174F /* Support Files */,
-			);
-			name = AgileViews;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F42D984A1810964A9AAD8BEC93A3174F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F4C2373D77C1F85FA94426BEE4DAD8EB /* AgileViews.modulemap */,
-				DF3A23CAA2A5FF563144118F943BEE9A /* AgileViews.xcconfig */,
-				39B50326A48A1203AD41730CD5635C02 /* AgileViews-dummy.m */,
-				05AB50914D25272A1FFBFD47E02DCF67 /* AgileViews-prefix.pch */,
-				120EB8DCB43BB29026163B4E2EEFD273 /* AgileViews-umbrella.h */,
-				7158D644583A51A46EF3C7ABBE40B113 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AgileViews";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -353,11 +382,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E03E87D7792E40C05E1157E9264AFF07 /* Headers */ = {
+		E061568C547556690BB4D93E781DD89B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				352D3FD6BB6E516B3F81923DD0177D4D /* AgileViews-umbrella.h in Headers */,
+				613FC1742282875EEBB5689F51FDB8A4 /* AgileViews-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,13 +401,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0E8AEA16329E6F9583B89B08BFAFB8D9 /* AgileViews */ = {
+		1AD4FBFFF1B3D1A3970FE57453D7EA7E /* AgileViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2B69A5784B275239422F0A1F5498091 /* Build configuration list for PBXNativeTarget "AgileViews" */;
+			buildConfigurationList = 5CA2D3449312213CFFB282DE1E0EFAC9 /* Build configuration list for PBXNativeTarget "AgileViews" */;
 			buildPhases = (
-				CB8CEF29B8210CDB1680BAA8862AC1A5 /* Sources */,
-				0A87F71A43401C5737FA20864EA0EB83 /* Frameworks */,
-				E03E87D7792E40C05E1157E9264AFF07 /* Headers */,
+				1692A7836B7EEDBDD70F26F0FE0408E1 /* Sources */,
+				E4A4BAAD675A431C6353F076248D42C4 /* Frameworks */,
+				E061568C547556690BB4D93E781DD89B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -445,7 +474,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E8AEA16329E6F9583B89B08BFAFB8D9 /* AgileViews */,
+				1AD4FBFFF1B3D1A3970FE57453D7EA7E /* AgileViews */,
 				CF1ABA842C2BB4950D1BB22264B6E51E /* Pods-AgileViews_Example */,
 				F1C5E490D26D4AD33B8738EB2551D152 /* Pods-AgileViews_Tests */,
 			);
@@ -453,6 +482,31 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1692A7836B7EEDBDD70F26F0FE0408E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB4EE0865AD077D2F82F2CA4F7247C1 /* AgileViews-dummy.m in Sources */,
+				F75C6921A2A9A60BC1F12AD39E0DA2A6 /* AIButton.swift in Sources */,
+				3FED6B4694710E0C07D05BF8C5C102BD /* AIButtonDatePicker.swift in Sources */,
+				16AFE1CA62249387297A34E8F15190DA /* AIButtonPicker.swift in Sources */,
+				793C58369825C0539B0F6DFE7DB3FBC9 /* AICollectionView.swift in Sources */,
+				8E6468D0A0E99BA57EB98F781D4166A3 /* AICollectionViewCell.swift in Sources */,
+				5E7A77CFF2F190E84C87EAFC8F0749CF /* AIImagePickerController.swift in Sources */,
+				EA717C6482B5870ECAC215B7724AAE8A /* AIImageView.swift in Sources */,
+				BEC160C50F3508242631713BA1EC6745 /* AILabel.swift in Sources */,
+				BB09670189AA3362A1F9B4D0B3629F17 /* AIPickerItem.swift in Sources */,
+				CD56DAFCF9AB08121E5582629252AE2D /* AITableView.swift in Sources */,
+				D2694848157BD2AE3585D4601D36EB9D /* AITableViewCell.swift in Sources */,
+				01F4E6C95C519A13889D26ED7400DE70 /* AITextDatePickerField.swift in Sources */,
+				1597A06C8F7CDEE483D4F1D3E6864B1B /* AITextField.swift in Sources */,
+				FF3436D3D1E3228C420F06D5B0D35ED3 /* AITextPickerField.swift in Sources */,
+				75238C6CF934AF7AB765142FF17DD651 /* AITextView.swift in Sources */,
+				3A307302BAB07D7CE3FC771409FD4D46 /* AIViewPlaceHolder.swift in Sources */,
+				41472C9AD98824FC9D0C3E65A2FF387A /* AIViewPlaceHolder.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C961918B3E6E574AE3FE2243A434B0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,21 +523,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB8CEF29B8210CDB1680BAA8862AC1A5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E3B837CA0BDAFF04A0450A01019198E /* AgileViews-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		97EEF9B8CD3EFB416CA28A1731DF8F47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AgileViews;
-			target = 0E8AEA16329E6F9583B89B08BFAFB8D9 /* AgileViews */;
+			target = 1AD4FBFFF1B3D1A3970FE57453D7EA7E /* AgileViews */;
 			targetProxy = 3BE48917E6A42D3847AEFB356753995C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -649,38 +695,6 @@
 			};
 			name = Debug;
 		};
-		59A616FFE478197CCCDCF05E9021F4B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF3A23CAA2A5FF563144118F943BEE9A /* AgileViews.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AgileViews/AgileViews-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AgileViews/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AgileViews/AgileViews.modulemap";
-				PRODUCT_NAME = AgileViews;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -736,9 +750,9 @@
 			};
 			name = Release;
 		};
-		876BB1CA2A315273FA33A359BBE8BED8 /* Debug */ = {
+		7D97CAB263BBA1C734EEA1417A905C45 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF3A23CAA2A5FF563144118F943BEE9A /* AgileViews.xcconfig */;
+			baseConfigurationReference = DB2ECDC47898A44DFDA0404BC0FA506F /* AgileViews.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -752,7 +766,39 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AgileViews/AgileViews-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AgileViews/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AgileViews/AgileViews.modulemap";
+				PRODUCT_NAME = AgileViews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCF3AD83580C424D03F5A6E6129229F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2ECDC47898A44DFDA0404BC0FA506F /* AgileViews.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AgileViews/AgileViews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AgileViews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AgileViews/AgileViews.modulemap";
 				PRODUCT_NAME = AgileViews;
@@ -830,11 +876,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2B69A5784B275239422F0A1F5498091 /* Build configuration list for PBXNativeTarget "AgileViews" */ = {
+		5CA2D3449312213CFFB282DE1E0EFAC9 /* Build configuration list for PBXNativeTarget "AgileViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				876BB1CA2A315273FA33A359BBE8BED8 /* Debug */,
-				59A616FFE478197CCCDCF05E9021F4B8 /* Release */,
+				CCF3AD83580C424D03F5A6E6129229F1 /* Debug */,
+				7D97CAB263BBA1C734EEA1417A905C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
